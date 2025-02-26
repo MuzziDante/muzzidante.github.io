@@ -29,7 +29,7 @@
 <meta property="og:image" content="http://muzzidante.github.io/2025/01/30/others-%E5%9B%BE%E7%89%87%E4%B8%8E%E8%A7%86%E9%A2%91%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B5%8C%E5%85%A5%E6%96%B9%E6%B3%95/1.jpg">
 <meta property="og:image" content="https://muzzidante-hexo-1309336438.cos.ap-shanghai.myqcloud.com/test.jpg">
 <meta property="article:published_time" content="2025-01-30T15:50:40.000Z">
-<meta property="article:modified_time" content="2025-02-16T12:49:37.303Z">
+<meta property="article:modified_time" content="2025-02-26T04:00:28.797Z">
 <meta property="article:author" content="MuzziDante">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://muzzidante.github.io/2025/01/30/others-%E5%9B%BE%E7%89%87%E4%B8%8E%E8%A7%86%E9%A2%91%E7%9A%84%E7%BD%91%E9%A1%B5%E5%B5%8C%E5%85%A5%E6%96%B9%E6%B3%95/1.jpg">
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          631 字
+          639 字
         
       </span>
     
@@ -281,7 +281,16 @@
                 <p>在静态博客中嵌入视频、图片的方法。另外，在Fluid主题（以及其它很多主题中）用<code>&lt;!-- more --&gt;</code>可以隔开摘要与正文。</p>
 <span id="more"></span>
 
-<h1 id="图片与视频的网页嵌入方法"><a href="#图片与视频的网页嵌入方法" class="headerlink" title="图片与视频的网页嵌入方法"></a>图片与视频的网页嵌入方法</h1><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><h3 id="图床部署在github"><a href="#图床部署在github" class="headerlink" title="图床部署在github"></a>图床部署在github</h3><p>此处图片没有使用在线图床，而是将图片存储在本地并被自动存入github。这么做目的是省事，当然墙内github的访问速度并不快。</p>
+<h1 id="图片与视频的网页嵌入方法"><a href="#图片与视频的网页嵌入方法" class="headerlink" title="图片与视频的网页嵌入方法"></a>图片与视频的网页嵌入方法</h1><h2 id="文本居中"><a href="#文本居中" class="headerlink" title="文本居中"></a>文本居中</h2><br>
+<div style="text-align: center;">
+  <p>无题</p>
+  <p>text，</p>
+  <p>text。</p>
+</div>
+
+
+
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><h3 id="图床部署在github"><a href="#图床部署在github" class="headerlink" title="图床部署在github"></a>图床部署在github</h3><p>此处图片没有使用在线图床，而是将图片存储在本地并被自动存入github。这么做目的是省事，当然墙内github的访问速度并不快。</p>
 <p>hexo 处理 markdown插入图片有bug，会发生路径错误，按照帖子<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2446584">解决静态图片路径错误问题</a>，使用hexo-asset-image后修改其源代码的方法可行性较高。<br>	PS: 在使用以上方法后，redefine 主题会导致生成的html文件中图片路径错误，暂时使用fluid主题没有出现问题。</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span></span><br><span class="hljs-tag">  <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;fit-picture&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;others-图片与视频的网页嵌入方法/1.jpg&quot;</span></span><br><span class="hljs-tag">  <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;test title&quot;</span> </span><br><span class="hljs-tag">  <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;zoom:50%&quot;</span>/&gt;</span><br></code></pre></td></tr></table></figure>
 
